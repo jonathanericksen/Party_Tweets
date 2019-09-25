@@ -1,16 +1,20 @@
+The following outlines a project conducted by the fictictous consulting firm JE Consulting (me) for a fictictious political consulting firm, Trace Political. This hypothetical scenario was established to conduct a narrative around the projects intent and purpose. 
+
+The accompanying jupyter notebook contained within the project repository walks the viewer through the steps while narrating the code and methodology between each step of the data science project. Below is a brief summary of the project's intent and findings.
+
+***
+
 # Party Tweets
 
 <p align="center">
      <img src="images/Political_mascots.png" width="750" height="300">
 </p>
 
-The following READEM outlines a project conducted by a fictictous consulting firm (me) for a fictictious political consulting firm, Trace Political. 
+## Project Overview
 
-***
+The intent with this project was two-fold: 
 
-The project's intent was two-fold: 
-
-**Part One**: focused on analyzing a dataset containing ~86K tweets from both Republicans and Democrats who were at the time sitting members of congress. In part one, I analyzed the text corpus from both parties' tweets from the existing dataset and look at how they compare. The following is a list of insights Trace Political was looking to extract: 
+**Part One**: Focused on analyzing a dataset containing ~86K tweets from both Republicans and Democrats who were at the time the tweets were published sitting members of congress. In part one, I analyzed the text corpus from both parties' tweets from the existing dataset to compare and contrast the data within the set. The following is a list of insights Trace Political was looking to extract: 
 
 - The top 10 most words used within tweets from both Democrat and Republican representatives
 - The total vocab count used in both the Democrat and Republican tweet corpus'
@@ -22,16 +26,10 @@ The project's intent was two-fold:
 
 **Part Two:**
 
-  > In addition to corpus analysis, Trace Political has asked JE Consulting to suss out the feasibility of building a classifier using neural networks that successfully predicts the political party of which the author of an official tweet belongs. In order to be deemed successful, the model must successfully predict political party with 90% accuracy on test data. Should this succeed, Trace Political will further pursue projects related to predictive modeling with natural language processing.
-  
-  >*Question:*
-  > Can a neural network successfully classify political affiliation based on language contained in official tweets from the available dataset?
+In addition to corpus analysis, Trace Political has asked JE Consulting to suss out the feasibility of building a classifier using neural networks that successfully predicts the political party of which the author of an official tweet belongs. In order to be deemed successful, the model must successfully predict political party with 90% accuracy on test data. Should this succeed, Trace Political will further pursue projects related to predictive modeling with natural language processing.
 
-## Methodology:
+***
 
-> This project is broken down in to two parts. Part One will will address the first objective which is to perform basic analysis of the text corpus contained within tweets from the dataset. Part Two will attempt to model the text data resulting in successful party classification. Part Two will finish with a conclusion based upon the attempted modeling along with recommendations for future work to enhance model performances, et cetera. The sections and sub-sections are outlined in the table of contents below.
-
-## Table of Contents:
 ### Obtain 
 > - Sourcing the Data
 > - Importing Data
