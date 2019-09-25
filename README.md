@@ -7,14 +7,16 @@ The accompanying jupyter notebook contained within the project repository walks 
 # Party Tweets
 
 <p align="center">
-     <img src="images/Political_mascots.png" width="750" height="300">
+     <img src="images/Political_mascots.png" width="550" height="550">
 </p>
 
 ## Project Overview
 
 The intent for this project was two-fold: 
 
-**Part One**: Focused on analyzing a dataset containing ~86K tweets from both Republicans and Democrats, who were at the time the tweets were published, sitting members of congress. In part one, I analyzed the text corpus from both parties' tweets contained in the dataset for a side by side comparison. The following is a list of insights Trace Political was looking to extract from the initial corpus analysis: 
+**Part One**: 
+
+Focused on analyzing a dataset containing ~86K tweets from both Republicans and Democrats, who were at the time the tweets were published, sitting members of congress. In part one, I analyzed the text corpus from both parties' tweets contained in the dataset for a side by side comparison. The following is a list of insights Trace Political was looking to extract from the initial corpus analysis: 
 
 - The top 10 most words used within tweets from both Democrat and Republican representatives
 - The total vocab count used in both the Democrat and Republican tweet corpus'
@@ -39,18 +41,20 @@ The data used for this project comes from Kaggle and includes a sampling of ~86k
 ## Part One Results
 
 **Number of Tweets By Party**
+
 The image below outlines the number of tweets by party contained in the dataset. The plot was made using a seaborn coutplot:
 
 <p align="center">
-     <img src="images/Total_tweets_by_party.png" width="750" height="300">
+     <img src="images/Total_tweets_by_party.png" width="350" height="400">
 </p>
 
 
 **Common Words by Party**
+
 Here I analyzed the most common words used on twitter by each party. The below image outlines the findings: 
 
 <p align="center">
-     <img src="images/Word_count_by_party.png" width="400" height="500">
+     <img src="images/Word_count_by_party.png" width="350" height="350">
 </p>
 
 **Vocab Length**
@@ -58,10 +62,11 @@ Here I analyzed the most common words used on twitter by each party. The below i
 Perhaps not surprisingly, both parties exhibited a similar vocab count with their twitter lexicon. For this dataset, Democrats used slightly more words than Republicans: 
 
 <p align="center">
-     <img src="images/Vocab_length.png" width="400" height="500">
+     <img src="images/Vocab_length.png" width="350" height="400">
 </p>
 
 **Semantic Relationships**
+
 The hypothetical client in this scenario tasked JE Consulting with extracting the 10 words with the closest semantic relationship to a list of key words for both parties. 
 
 > - Sentiment Analysis
