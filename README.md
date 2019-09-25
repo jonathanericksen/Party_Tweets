@@ -6,6 +6,8 @@
 
 The following READEM outlines a project conducted by a fictictous consulting firm (me) for a fictictious political consulting firm, Trace Political. 
 
+***
+
 The project's intent was two-fold: 
 
 **Part One**: focused on analyzing a dataset containing ~86K tweets from both Republicans and Democrats who were at the time sitting members of congress. In part one, I analyzed the text corpus from both parties' tweets from the existing dataset and look at how they compare. The following is a list of insights Trace Political was looking to extract: 
