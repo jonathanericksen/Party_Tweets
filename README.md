@@ -12,9 +12,9 @@ The accompanying jupyter notebook contained within the project repository walks 
 
 ## Project Overview
 
-The intent with this project was two-fold: 
+The intent for this project was two-fold: 
 
-**Part One**: Focused on analyzing a dataset containing ~86K tweets from both Republicans and Democrats who were at the time the tweets were published sitting members of congress. In part one, I analyzed the text corpus from both parties' tweets from the existing dataset to compare and contrast the data within the set. The following is a list of insights Trace Political was looking to extract: 
+**Part One**: Focused on analyzing a dataset containing ~86K tweets from both Republicans and Democrats, who were at the time the tweets were published, sitting members of congress. In part one, I analyzed the text corpus from both parties' tweets contained in the dataset for a side by side comparison. The following is a list of insights Trace Political was looking to extract from the initial corpus analysis: 
 
 - The top 10 most words used within tweets from both Democrat and Republican representatives
 - The total vocab count used in both the Democrat and Republican tweet corpus'
@@ -26,18 +26,25 @@ The intent with this project was two-fold:
 
 **Part Two:**
 
-In addition to corpus analysis, Trace Political has asked JE Consulting to suss out the feasibility of building a classifier using neural networks that successfully predicts the political party of which the author of an official tweet belongs. In order to be deemed successful, the model must successfully predict political party with 90% accuracy on test data. Should this succeed, Trace Political will further pursue projects related to predictive modeling with natural language processing.
+In addition to corpus analysis, Trace Political has asked JE Consulting to suss out the feasibility of building a classifier using neural networks that successfully predicts the political party of which the author of an official tweet belongs. In order to be deemed successful, the model must successfully predict political party with 90% accuracy on test data. Should this succeed, Trace Political will further pursue projects related to predictive modeling with natural language processing for use among it's consulting operations.
 
 ***
 
-### Obtain 
-> - Sourcing the Data
-> - Importing Data
+## The Data
 
-### Part One
+The data used for this project comes from Kaggle and includes a sampling of ~86k tweets sent from both Democratic and Republican representatives in the U.S. congress during May 2018. The dataset can be found here: https://www.kaggle.com/kapastor/democratvsrepublicantweets
 
-> - Exploratory Data Analysis 
-> - Number of Tweets By Party
+***
+
+## Part One Results
+
+- Number of Tweets By Party
+
+<p align="center">
+     <img src="images/Total_tweets_by_party.png" width="750" height="300">
+</p>
+
+
 > - Common Words by Party
 > - Vocab Length
 > - Semantic Relationships
