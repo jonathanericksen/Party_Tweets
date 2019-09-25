@@ -7,7 +7,7 @@ The accompanying jupyter notebook contained within the project repository walks 
 # Party Tweets
 
 <p align="center">
-     <img src="images/Political_mascots.png" width="450" height="350">
+     <img src="images/Political_mascots.png" width="500" height="375">
 </p>
 
 ## Project Overview
@@ -42,7 +42,7 @@ The data used for this project comes from Kaggle and includes a sampling of ~86k
 
 **Number of Tweets By Party**
 
-The image below outlines the number of tweets by party contained in the dataset. The plot was made using a seaborn coutplot:
+The image below outlines the number of tweets by party contained in the dataset. The plot was made using a seaborn countplot:
 
 <p align="center">
      <img src="images/Total_tweets_by_party.png" width="350" height="400">
@@ -68,6 +68,10 @@ Perhaps not surprisingly, both parties exhibited a similar vocab count with thei
 **Semantic Relationships**
 
 The hypothetical client in this scenario tasked JE Consulting with extracting the 10 words with the closest semantic relationship to a list of key words for both parties. 
+
+<p align="center">
+     <img src="images/Semantic_relationships.png" width="750" height="400">
+</p>
 
 > - Sentiment Analysis
 
