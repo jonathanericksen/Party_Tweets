@@ -1,4 +1,9 @@
 # Party Tweets
+
+<p align="center">
+     <img src="images/Political_mascots.png" width="800" height="400">
+</p>
+
 The following READEM outlines a project conducted by a fictictous consulting firm (me) for a fictictious political consulting firm, Trace Political. 
 
 The project's intent was two-fold: 
