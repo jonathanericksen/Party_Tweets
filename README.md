@@ -7,7 +7,7 @@ The accompanying jupyter notebook contained within the project repository walks 
 # Party Tweets
 
 <p align="center">
-     <img src="images/Political_mascots.png" width="550" height="550">
+     <img src="images/Political_mascots.png" width="450" height="350">
 </p>
 
 ## Project Overview
