@@ -14,7 +14,7 @@ The accompanying jupyter notebook contained within the project repository walks 
 
 The intent for this project was two-fold: 
 
-**Part One**: 
+**Part One** 
 
 Focused on analyzing a dataset containing ~86K tweets from both Republicans and Democrats, who were at the time the tweets were published, sitting members of congress. In part one, I analyzed the text corpus from both parties' tweets contained in the dataset for a side by side comparison. The following is a list of insights Trace Political was looking to extract from the initial corpus analysis: 
 
@@ -26,7 +26,7 @@ Focused on analyzing a dataset containing ~86K tweets from both Republicans and 
     - Tax
 - Extract the sentiment rating for Democrat and Republican tweets
 
-**Part Two:**
+**Part Two**
 
 In addition to corpus analysis, Trace Political has asked JE Consulting to suss out the feasibility of building a classifier using neural networks that successfully predicts the political party of which the author of an official tweet belongs. In order to be deemed successful, the model must successfully predict political party with 90% accuracy on test data. Should this succeed, Trace Political will further pursue projects related to predictive modeling with natural language processing for use among it's consulting operations.
 
@@ -70,10 +70,12 @@ Perhaps not surprisingly, both parties exhibited a similar vocab count with thei
 The hypothetical client in this scenario tasked JE Consulting with extracting the 10 words with the closest semantic relationship to a list of key words for both parties. 
 
 <p align="center">
-     <img src="images/Semantic_relationships.png" width="750" height="400">
+     <img src="images/Semantic_relationships.png" width="750" height="325">
 </p>
 
-> - Sentiment Analysis
+**Sentiment Analysis**
+
+
 
 ### Part Two
 
