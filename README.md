@@ -16,7 +16,7 @@ The intent for this project was two-fold:
 
 **Part One** 
 
-Focused on analyzing a dataset containing ~86K tweets from both Republicans and Democrats, who were at the time the tweets were published, sitting members of congress. In part one, I analyzed the text corpus from both parties' tweets contained in the dataset for a side by side comparison. The following is a list of insights Trace Political was looking to extract from the initial corpus analysis: 
+Focused on analyzing a dataset containing ~86K tweets from both Republicans and Democrats who were at the time the tweets were published sitting members of congress. In part one I analyze the text corpus from both parties' tweets contained in the dataset for a side by side comparison. The following is a list of insights Trace Political was looking to extract from the initial corpus analysis: 
 
 - The top 10 most words used within tweets from both Democrat and Republican representatives
 - The total vocab count used in both the Democrat and Republican tweet corpus'
@@ -75,32 +75,31 @@ The hypothetical client in this scenario tasked JE Consulting with extracting th
 
 **Sentiment Analysis**
 
+In this final step in the analysis, I took a look at the sentiment score for both parties respective corpus. Perhaps unsurprisingly, the party in power exhited a higher sentiment score as their published tweets likely took a positive tone in support of current congressional political initiatives: 
 
+<p align="center">
+     <img src="images/Sentiment_analysis.png" width="350" height="350">
+</p>
 
-### Part Two
+***
 
-> - Feature Engineering
+## Part Two
 
-    - Data Cleaning
-    - Convert Labels to Integers
-    - Tokenize Text
-    - Padding Input Matrices
-    - Train Test Split
+**Modeling**
 
-> - Modeling
+In part two, I experimented with a number of deep learning models in an attempt to extract the best model (LSTM, GRU), model architecture, and hyperparameters. In all cases, and given the data set available, each model exhibited clear signs of overfitting on the training set. The model with the best performance prduced an accruacry score of ~78% on the testing set, far below our target of 90%. 
 
-    - LSTM Model One
-    - LSTM Model Two
-    - LSTM Model Three
-    - GRU Model One
-    
-**Conclusions**
+The below image depicts the training vs. validation accuracy score for each epoch during the model training. The divergence in accuracy scores indicates clear overfitting of the training data: 
 
-*Question:* 
+<p align="center">
+     <img src="images/Model_performance.png" width="400" height="350">
+</p>
 
-Can a model successfully classify political affiliation based on language contained in official tweets?
+Multiple attempts were made to improve these model performances to no avail. The extent of the model experimentation can be found in the accompanying jupyter notebook. 
 
-*Answer:* 
+***
+
+## Conclusions
 
 Based on the objectives set forth by Trace Political, it seems we have failed to produce a model that can predict party affiliation with a 90% accuracy score. Further, each model exhibited clear signs of over fitting which does not lend itself to any succesful real world deployment of these models.
 
