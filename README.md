@@ -1,4 +1,4 @@
-The following outlines a project conducted by the fictictous consulting firm, JE Consulting (me), for a fictictious political consulting firm, Trace Political. This hypothetical scenario was established to conduct a narrative around the project's intent and purpose. 
+*** The following outlines a project conducted by the fictictous consulting firm, JE Consulting (me), for a fictictious political consulting firm, Trace Political. This hypothetical scenario was established to conduct a narrative around the project's intent and purpose. 
 
 The accompanying jupyter notebook contained within the project repository walks the viewer through the steps used throughout the project with explanations of the code and methodology behind each step. Below is a brief summary of the project's intent and findings.
 
@@ -101,20 +101,20 @@ Multiple attempts were made to improve these model performances to no avail. The
 
 ## Conclusions
 
-Based on the objectives set forth by Trace Political, it seems we have failed to produce a model that can predict party affiliation with a 90% accuracy score. Further, each model exhibited clear signs of over fitting which does not lend itself to any succesful real world deployment of these models.
+Based on the objectives set forth by Trace Political, it seems we have failed to produce a model that can predict party affiliation with a 90% accuracy score. Further, each model exhibited clear signs of over fitting which does not lend itself to any succesful real world production deployment.
 
-The short answer here as to why our models have failed is the simple fact that we are not operating with enough data. Future iterations of this objective would require additional web scraping to acquire enough tweets to improve the predictive power of our models. 
+The short answer as to why our models failed to meet the model accuracy threshold is the simple fact that we are not operating with enough data. Future model iterations require additional web scraping to acquire tweets data which would boost the models predictive power through additional training data. 
 
 **Recommendations**
 
-The models produced above exhibit clear over fitting on the training data. Further, the predictive power of each model downright abysmal to somewhat applicable. To combat this, we recommend acquiring further tweet data from which our models can learn. 
+The models produced exhibit clear over fitting on the training data. Further, the predictive power of each model downright abysmal to somewhat applicable. To combat this, we recommend acquiring further tweet data from which our models can learn. 
 
-Additionally, Trace Political should look to data sources beyond twitter. Perhaps other forms of social media would provide rich data sets that can be used to train an NLP models. Perhaps facebook or even press releases might offer valuable data that unlocks keywords used in the language by party. 
+Additionally, Trace Political should look to data sources beyond twitter. Perhaps other forms of social media would provide rich data sets that can be used to train NLP models. Perhaps facebook or even press releases might offer valuable data that unlocks keywords used in the language by each party. 
 
 **Future Work**
 
-Future work is needed to further refine and tune both the hyperparameters of these models as well as the overall model architectures. Doing so would enforce the idea of needing more data. 
+Future work is needed to further refine and tune both the hyperparameters of these models as well as the overall model architectures. Doing so would enforce the idea of needing additional data. 
 
-Additionally, further work could be done on practices used with cleaning the text data. It is likely there if predictive information stored within some of the symbols and characters commonly used within tweets outside of words. 
+Additionally, work could be done on practices used with cleaning the text data. It is likely there is predictive information stored within some of the symbols and characters commonly used within tweets. 
 
-Finally, work should be done with to develop a relevant use case for a model that accurately predicts political party by tweet content. Though we did not meed Trace Political's threshold for deeming this project a success, with more data and model/data cleaning experimentation, a powerful model may still be possible. Once one is developed, ways to employ the model should be flushed out for use within Trace Political's product offering.
+Finally, work should be done to develop a relevant use case for a model that accurately predicts political party by tweet content. Though we did not meet Trace Political's threshold for deeming the models a success, more data, data cleaning experiementation and model iterations could feasibly produce a successful model. Should we succeed in producing a viable model, use cases for employing the model should be flushed out for use within Trace Political's product offering.
