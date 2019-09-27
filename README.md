@@ -1,4 +1,4 @@
-*** The following outlines a project conducted by the fictictous consulting firm, JE Consulting (me), for a fictictious political consulting firm, Trace Political. This hypothetical scenario was established to conduct a narrative around the project's intent and purpose. 
+The following outlines a project conducted by the fictictous consulting firm, JE Consulting (me), for a fictictious political consulting firm, Trace Political. This hypothetical scenario was established to conduct a narrative around the project's intent and purpose. 
 
 The accompanying jupyter notebook contained within the project repository walks the viewer through the steps used throughout the project with explanations of the code and methodology behind each step. Below is a brief summary of the project's intent and findings.
 
