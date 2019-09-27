@@ -92,7 +92,7 @@ In part two, I experimented with a number of deep learning models in an attempt 
 The below image depicts the training vs. validation accuracy score for each epoch during the model training. The divergence in accuracy scores indicates clear overfitting of the training data: 
 
 <p align="center">
-     <img src="images/Model_performance.png" width="400" height="350">
+     <img src="images/Model_performance.png" width="500" height="375">
 </p>
 
 Multiple attempts were made to improve these model performances to no avail. The extent of the model experimentation can be found in the accompanying jupyter notebook. 
