@@ -16,42 +16,47 @@ The intent for this project was two-fold:
 
 **Part One** 
 
-Focused on analyzing a dataset containing ~86K tweets from both Republicans and Democrats who were at the time the tweets were published sitting members of congress. In part one I analyze the text corpus from both parties' tweets contained in the dataset for a side by side comparison. The following is a list of insights Trace Political was looking to extract from the initial corpus analysis: 
+Part one focused on analyzing a dataset containing ~86K tweets from both Republicans and Democrats who were at the time the tweets were published sitting members of congress. In part one I analyze the text corpus from both parties' tweets contained in the dataset for a side by side comparison. The following is a list of insights Trace Political had tasked JE Consulting to extract from the initial corpus analysis: 
 
 - The top 10 most words used within tweets from both Democrat and Republican representatives
-- The total vocab count used in both the Democrat and Republican tweet corpus'
-- Words with the highest semantic relation to the following via the word vectorization process: 
+- The total vocab count for both the Democrat and Republican tweet corpus'
+- Words with the highest semantic relation to the following via the word vectorization method: 
     - Trump
     - Bill
     - Tax
-- Extract the sentiment rating for Democrat and Republican tweets
+- Extract the sentiment rating for Democrat and Republican tweet corpus'
 
 **Part Two**
 
-In addition to corpus analysis, Trace Political has asked JE Consulting to suss out the feasibility of building a classifier using neural networks that successfully predicts the political party of which the author of an official tweet belongs. In order to be deemed successful, the model must successfully predict political party with 90% accuracy on test data. Should this succeed, Trace Political will further pursue projects related to predictive modeling with natural language processing for use among it's consulting operations.
+In addition to corpus analysis, Trace Political tasked JE Consulting to suss out the feasibility of building a classifier using neural networks that successfully predicts the political party of which the author of an official tweet belongs. In order to be deemed successful, the model must successfully predict political party with 90% accuracy on test data. Should this succeed, Trace Political will further pursue projects related to predictive modeling with natural language processing for use among it's consulting operations.
 
 ***
 
 ## The Data
 
-The data used for this project comes from Kaggle and includes a sampling of ~86k tweets sent from both Democratic and Republican representatives in the U.S. congress during May 2018. The dataset can be found here: https://www.kaggle.com/kapastor/democratvsrepublicantweets
+The data used for this project comes from Kaggle and includes a sampling of ~86k tweets sent from both Democratic and Republican representatives in the U.S. congress during May 2018. 
+
+The dataset can be found here: https://www.kaggle.com/kapastor/democratvsrepublicantweets
 
 ***
 
 ## Part One Results
 
+Below we walk through the findings for each section in part one. Each section was an insight Trace Political was looking to extract from the data. 
+
 **Number of Tweets By Party**
 
-The image below outlines the number of tweets by party contained in the dataset. The plot was made using a seaborn countplot:
+To begin, I looked at the total number of tweets from each party contained in the dataset. The plot below was made using seaborn's countplot:
+- Number of Democrat tweets: 42068
+- Number of Republican tweets: 44392
 
 <p align="center">
      <img src="images/Total_tweets_by_party.png" width="350" height="400">
 </p>
 
-
 **Common Words by Party**
 
-Here I analyzed the most common words used on twitter by each party. The below image outlines the findings: 
+I then analyzed the most common words used on twitter by each party. The tables below lists the most common words sorted by frequency. Interestingly, 'Today' is the most common word for each party followed by 'Trump' and 'American' for Democrats and 'Tax' and 'great' for Republicans:
 
 <p align="center">
      <img src="images/Word_count_by_party.png" width="350" height="350">
@@ -59,7 +64,7 @@ Here I analyzed the most common words used on twitter by each party. The below i
 
 **Vocab Length**
 
-Perhaps not surprisingly, both parties exhibited a similar vocab count with their twitter lexicon. For this dataset, Democrats used slightly more words than Republicans: 
+Next I looked at the unique vocab count by party. Perhaps not surprisingly, both parties exhibited a similar vocab count within their twitter lexicons. For this particular dataset, Democrats used slightly more words than Republicans: 
 
 <p align="center">
      <img src="images/Vocab_length.png" width="350" height="400">
@@ -67,7 +72,9 @@ Perhaps not surprisingly, both parties exhibited a similar vocab count with thei
 
 **Semantic Relationships**
 
-The hypothetical client in this scenario tasked JE Consulting with extracting the 10 words with the closest semantic relationship to a list of key words for both parties. 
+Trace Political then tasked JE Consulting with extracting the 10 words with the closest semantic relationship to a list of key words for both parties. The key words were 'Trump', 'Bill', and 'Tax'. 
+
+I've included below the words of closest semantic meaning to tax for both parties: 
 
 <p align="center">
      <img src="images/Semantic_relationships.png" width="750" height="325">
@@ -75,11 +82,13 @@ The hypothetical client in this scenario tasked JE Consulting with extracting th
 
 **Sentiment Analysis**
 
-In this final step in the analysis, I took a look at the sentiment score for both parties respective corpus. Perhaps unsurprisingly, the party in power exhited a higher sentiment score as their published tweets likely took a positive tone in support of current congressional political initiatives: 
+The final step in the corpus analysis looked at the overall sentiment score from both parties:
 
 <p align="center">
      <img src="images/Sentiment_analysis.png" width="350" height="350">
 </p>
+
+The party in power (at the time these tweets were published was the republican party) exhited a higher sentiment score as their published tweets likely took a positive tone in support of current congressional political initiatives. Conversely, the party not in power (democrats) likely spoke in a more negative tone as they looked to deminish the achievments and legislative agenda of the current hour majority party.
 
 ***
 
