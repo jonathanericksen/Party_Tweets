@@ -16,7 +16,7 @@ The intent for this project was two-fold:
 
 **Part One** 
 
-Part one focused on analyzing a dataset containing ~86K tweets from both Republicans and Democrats who were at the time the tweets were published sitting members of congress. In part one I analyze the text corpus from both parties' tweets contained in the dataset for a side by side comparison. The following is a list of insights Trace Political had tasked JE Consulting to extract from the initial corpus analysis: 
+Part one focused on analyzing a dataset containing ~86K tweets from both Republicans and Democrats who were at the time the tweets were published sitting members of the hour of representatives. In part one I analyze the text corpus from both parties' tweets contained in the dataset for a side by side comparison. The following is a list of insights Trace Political tasked JE Consulting with extracting from the initial corpus analysis: 
 
 - The top 10 most words used within tweets from both Democrat and Republican representatives
 - The total vocab count for both the Democrat and Republican tweet corpus'
@@ -98,7 +98,7 @@ The party in power (at the time these tweets were published was the republican p
 
 In part two, I experimented with a number of deep learning models in an attempt to extract the best model (LSTM, GRU), model architecture, and hyperparameters. In all cases, and given the data set available, each model exhibited clear signs of overfitting on the training set. The model with the best performance prduced an accruacry score of ~78% on the testing set, far below our target of 90%. 
 
-The below image depicts the training vs. validation accuracy score for each epoch during the model training. The divergence in accuracy scores indicates clear overfitting of the training data: 
+The below image depicts the training vs. validation accuracy score for each epoch during model training. The divergence in accuracy scores indicates clear overfitting on the training data: 
 
 <p align="center">
      <img src="images/Model_performance.png" width="500" height="375">
@@ -110,20 +110,20 @@ Multiple attempts were made to improve these model performances to no avail. The
 
 ## Conclusions
 
-Based on the objectives set forth by Trace Political, it seems we have failed to produce a model that can predict party affiliation with a 90% accuracy score. Further, each model exhibited clear signs of over fitting which does not lend itself to any succesful real world production deployment.
+Based on the objectives set forth by Trace Political, JE Consulting failed to produce a model that can predict party affiliation with a 90% accuracy score. Further, each model exhibited clear signs of over fitting which does not lend itself to any succesful real world production deployment.
 
-The short answer as to why our models failed to meet the model accuracy threshold is the simple fact that we are not operating with enough data. Future model iterations require additional web scraping to acquire tweets data which would boost the models predictive power through additional training data. 
+The short answer as to why our models failed to meet the model accuracy threshold is likely the result of an insufficient data. Future model iterations require additional web scraping to acquire more tweet data which should boost the models predictive power through additional training data. 
 
 **Recommendations**
 
-The models produced exhibit clear over fitting on the training data. Further, the predictive power of each model downright abysmal to somewhat applicable. To combat this, we recommend acquiring further tweet data from which our models can learn. 
+The models produced exhibit clear over fitting on the training data. Further, the predictive power of each model downright abysmal to somewhat applicable. To combat this, JE Consulting recommends Trace Political acquire further tweet data from which our models can learn. 
 
-Additionally, Trace Political should look to data sources beyond twitter. Perhaps other forms of social media would provide rich data sets that can be used to train NLP models. Perhaps facebook or even press releases might offer valuable data that unlocks keywords used in the language by each party. 
+Additionally, Trace Political should look to data sources beyond twitter. Perhaps other forms of social media, or press releases, would provide rich text data that can be used to further train our models.  
 
 **Future Work**
 
-Future work is needed to further refine and tune both the hyperparameters of these models as well as the overall model architectures. Doing so would enforce the idea of needing additional data. 
+Future work is needed to further refine and tune both the hyperparameters of these models as well as the overall model architectures.
 
-Additionally, work could be done on practices used with cleaning the text data. It is likely there is predictive information stored within some of the symbols and characters commonly used within tweets. 
+Additionally, work could be done on practices used with cleaning the text data. It's likely there is predictive information stored within some of the symbols and special characters commonly used within tweets. For this project, all special characters and punctuation were removed from the text data.
 
-Finally, work should be done to develop a relevant use case for a model that accurately predicts political party by tweet content. Though we did not meet Trace Political's threshold for deeming the models a success, more data, data cleaning experiementation and model iterations could feasibly produce a successful model. Should we succeed in producing a viable model, use cases for employing the model should be flushed out for use within Trace Political's product offering.
+Finally, work should be done to develop a relevant use case for a model that accurately predicts political party by tweet content. Though we did not meet Trace Political's threshold for deeming the models a success, more data, data cleaning experiementation, and model iterations could feasibly produce a successful model. Should we succeed in producing a viable model, use cases for employing the model should be flushed out for use within Trace Political's product offering. The decision to continue work on improving the accuracy score is one that Trace Political will need to make after a thorough cost benefit analysis. 
