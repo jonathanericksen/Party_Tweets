@@ -47,8 +47,8 @@ Below we walk through the findings for each section in part one. Each section wa
 **Number of Tweets By Party**
 
 To begin, I looked at the total number of tweets from each party contained in the dataset. The plot below was made using seaborn's countplot:
-- Number of Democrat tweets: 42068
-- Number of Republican tweets: 44392
+- Number of Democrat tweets: 42,068
+- Number of Republican tweets: 44,392
 
 <p align="center">
      <img src="images/Total_tweets_by_party.png" width="350" height="400">
