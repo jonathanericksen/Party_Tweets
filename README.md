@@ -1,6 +1,4 @@
-Note: This project was produced within one week as a requirement for a Data Science program through Flatiron School.
-
-The following outlines a project conducted by the fictitious consulting firm, JE Consulting (me), for a fictitious political consulting firm, Trace Political. This hypothetical scenario was used to establish a narrative around the project's intent and purpose. The accompanying jupyter notebook contained within the project repository walks the viewer through the steps used for this project with explanations of the code and methodology behind each step. Below is a summary of the project's intent and findings.
+Note: The following README outlines a project conducted by the fictitious consulting firm, JE Consulting (me), for a fictitious political consulting firm, Trace Political. This hypothetical scenario was used to establish a narrative around the project's intent and purpose. The accompanying jupyter notebook contained within the project repository walks the viewer through the steps used for this project with explanations of the code and methodology behind each step. Below is a summary of the project's intent and findings.
 
 ***
 
