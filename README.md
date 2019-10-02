@@ -1,4 +1,4 @@
-Note: The following README outlines a project conducted by the fictitious consulting firm, JE Consulting (me), for a fictitious political consulting firm, Trace Political. This hypothetical scenario was used to establish a narrative around the project's intent and purpose. The accompanying jupyter notebook contained within the project repository walks the viewer through the steps used with explanations of the code and methodology behind each step. Below is a summary of the project's intent and findings.
+Note: The following README outlines a project conducted by the fictitious consulting firm, JE Consulting (me), for a fictitious political consulting firm, Trace Political. This hypothetical scenario was used to establish a narrative around the project's intent and purpose. The accompanying jupyter notebook contained within the repository walks the viewer through the steps used to complete the project along with explanations of the code and methodology behind each step. Below is a summary of the project's intent and findings.
 
 ***
 
@@ -16,7 +16,7 @@ The intent for this project was two-fold:
 
 Part one focused on analyzing a dataset containing ~86K tweets from both Republicans and Democrats who were at the time the tweets were published sitting members of the house of representatives. In part one, I analyze the text corpus from both parties' tweets for a side by side comparison. The following is a list of insights Trace Political tasked JE Consulting with extracting from the initial corpus analysis: 
 
-- The top 10 most words used within tweets from both Democrat and Republican representatives
+- The 10 most common words used within tweets from both Democrat and Republican representatives
 - The total vocab count for both the Democrat and Republican tweet corpus'
 - Words with the highest semantic relation to the following via the word vectorization: 
     - Trump
@@ -26,7 +26,7 @@ Part one focused on analyzing a dataset containing ~86K tweets from both Republi
 
 **Part Two**
 
-In addition to corpus analysis, Trace Political tasked JE Consulting to suss out the feasibility of building a classifier using neural networks that successfully predicts the political party of which the author of an official tweet belongs. To be deemed successful, the model must successfully predict political party with 90% accuracy on test data. Should this succeed, Trace Political will further pursue projects related to predictive modeling with natural language processing for use among it's consulting operations.
+In addition to corpus analysis, Trace Political tasked JE Consulting with assessing the feasibility of building a classifier using neural networks that successfully predicts the political party of which the author of an official tweet belongs. To be deemed successful, the model must predict political party with 90% accuracy on test data. Should this succeed, Trace Political will further pursue projects related to predictive modeling with natural language processing for use among it's consulting operations.
 
 ***
 
@@ -34,7 +34,7 @@ In addition to corpus analysis, Trace Political tasked JE Consulting to suss out
 
 The data used for this project comes from Kaggle and includes a sampling of ~86k tweets sent from both Democratic and Republican representatives in the U.S. Congress during May 2018. 
 
-The dataset can be found here: https://www.kaggle.com/kapastor/democratvsrepublicantweets
+The dataset can be found via the following link: https://www.kaggle.com/kapastor/democratvsrepublicantweets
 
 ***
 
@@ -44,7 +44,7 @@ Below I walk through the findings for each section in part one. Each section was
 
 **Number of Tweets By Party**
 
-To begin, I looked at the total number of tweets from each party contained in the dataset. The plot below was made using seaborn's countplot:
+To begin, I looked at the total number of tweets from each party contained in the dataset:
 - Number of Democrat tweets: 42,068
 - Number of Republican tweets: 44,392
 
@@ -86,7 +86,7 @@ The final step in the corpus analysis looked at the overall sentiment score from
      <img src="images/Sentiment_analysis.png" width="350" height="350">
 </p>
 
-The party in power (at the time these tweets were published was the Republican party) exhibited a higher sentiment score as their published tweets likely took a positive tone in support of current congressional political initiatives. Conversely, the party not in power (Democrats) likely spoke in a more negative tone as they looked to diminish the achievements and legislative agenda of the current majority party.
+The party in power (which at the time these tweets were published was the Republican party) exhibited a higher sentiment score as their published tweets likely took a positive tone in support of current congressional political initiatives. Conversely, the party not in power (Democrats) likely spoke in a more negative tone as they looked to diminish the achievements and legislative agenda of the current majority party.
 
 ***
 
@@ -96,7 +96,7 @@ The party in power (at the time these tweets were published was the Republican p
 
 In part two, I experimented with several deep learning models in an attempt to extract the best model (LSTM, GRU), model architecture, and hyperparameters. In all cases, and given the dataset available, each model exhibited clear signs of overfitting on the training set. The model with the best performance produced an accuracy score of ~78% on the testing set, far below our target of 90%. 
 
-The below image depicts the training vs. validation accuracy score for each epoch during model training. The divergence in accuracy scores indicates clear overfitting on the training data: 
+The below image depicts the training vs. validation accuracy score for each epoch during and example of model training. The divergence in accuracy scores indicates clear overfitting on the training data: 
 
 <p align="center">
      <img src="images/Model_performance.png" width="500" height="375">
