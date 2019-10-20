@@ -6,7 +6,7 @@ The project included the following highlights:
 - Sentiment analysis with TextBlob
 - Tweet classification with LSTM and GRU neural networks
 
-Below is a summary of the project's intent and findings:
+Below is a brief summary of the project's intent and findings:
 
 ***
 
