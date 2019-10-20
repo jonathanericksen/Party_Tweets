@@ -4,7 +4,7 @@ The project included the following highlights:
 
 - Natural Language Processing with NLTK
 - Sentiment analysis with TextBlob
-- ANN modeling using LSTM and GRU networks
+- Tweet classification with LSTM and GRU ANNs
 
 Below is a summary of the project's intent and findings:
 
