@@ -4,7 +4,7 @@ The project included the following highlights:
 
 - Word Vectorization using Word2Vec
 - Sentiment analysis with TextBlob
-- Tweet classification with LSTM and GRU ANNs
+- Tweet classification with LSTM and GRU neural networks
 
 Below is a summary of the project's intent and findings:
 
