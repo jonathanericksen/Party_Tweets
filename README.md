@@ -1,6 +1,6 @@
 Note: The following README outlines a project conducted by the fictitious consulting firm, JE Consulting (me), for a fictitious political consulting firm, Trace Political. This hypothetical scenario was used to establish a narrative around the project's intent and purpose. The accompanying jupyter notebook contained within the repository walks the viewer through the steps used to complete the project along with explanations of the code and methodology behind each step. 
 
-The project included the following highlights:
+The project included the following highlights which can be viewed in detail within the accompanying 'Party_Tweets' notebook:
 
 - Natural Language Processing with NLTK
 - Sentiment analysis with TextBlob
