@@ -2,6 +2,7 @@ Note: The following README outlines a project conducted by the fictitious consul
 
 The project included the following highlights:
 
+- Corpus analysis using NLTK
 - Word Vectorization using Word2Vec
 - Sentiment analysis with TextBlob
 - Tweet classification with LSTM and GRU neural networks
