@@ -2,9 +2,9 @@ Note: The following README outlines a project conducted by the fictitious consul
 
 The project included the following highlights:
 
-     - Natural Language Processing with NLTK
-     - Sentiment analysis with TextBlob
-     - ANN modeling using LSTM and GRU networks
+- Natural Language Processing with NLTK
+- Sentiment analysis with TextBlob
+- ANN modeling using LSTM and GRU networks
 
 Below is a summary of the project's intent and findings.
 
